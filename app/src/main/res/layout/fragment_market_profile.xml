@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbarSize="2sp"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/No_of_Commission_Agent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:paddingLeft="15dp"
+                android:inputType="number"
+                android:layout_marginTop="4dp"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:hint="No of Commission Agent"
+                android:maxLength="40"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/No_of_Weighman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#000"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:paddingLeft="15dp"
+                android:inputType="number"
+                android:layout_marginTop="4dp"
+                android:hint="No of Weighman"
+                android:maxLength="40"
+                android:textSize="14sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Area_of_Market"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:maxLength="40"
+                android:paddingLeft="15dp"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:layout_marginTop="4dp"
+                android:hint="Total Area of Market (acre)"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Who_manages_the_market"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="text"
+                android:maxLength="40"
+                android:layout_marginTop="4dp"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:hint="Who manages the market"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/No_of_Wholesalers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:layout_marginTop="4dp"
+                android:hint="No of Wholesalers"
+                android:inputType="number"
+                android:maxLength="40"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/No_of_Hamals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:layout_marginTop="4dp"
+                android:hint="No of Hamals/Porters"
+                android:paddingLeft="15dp"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Market_Committee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="text"
+                android:maxLength="40"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:hint="Market Committee "
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Days Open"
+            android:layout_margin="10sp"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:checked="true"
+                android:text="Monday"
+                android:layout_height="40sp"/>
+
+        <CheckBox
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:checked="true"
+            android:text="Tuesday"
+            android:layout_height="40sp"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:checked="true"
+                android:text="Wednesday"
+                android:layout_height="40sp"/>
+
+            <CheckBox
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:checked="true"
+                android:text="Thursday"
+                android:layout_height="40sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:checked="true"
+                android:text="Friday"
+                android:layout_height="40sp"/>
+
+            <CheckBox
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:checked="true"
+                android:text="Saturday"
+                android:layout_height="40sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:text="Sunday"
+                android:layout_height="40sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20sp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:text="NEXT"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_height="50sp"/>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

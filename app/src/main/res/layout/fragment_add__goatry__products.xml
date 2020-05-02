@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbarSize="2sp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Product_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:paddingLeft="15dp"
+                android:inputType="text"
+                android:layout_marginTop="4dp"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:hint="Product Name"
+                android:maxLength="40"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/January"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#000"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:paddingLeft="15dp"
+                android:inputType="number"
+                android:layout_marginTop="4dp"
+                android:hint="January (No per day)"
+                android:maxLength="40"
+                android:textSize="14sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/February"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:maxLength="40"
+                android:paddingLeft="15dp"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:layout_marginTop="4dp"
+                android:hint="February (No per day)"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/March"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:maxLength="40"
+                android:layout_marginTop="4dp"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:hint="March (No per day)"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/April"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:layout_marginTop="4dp"
+                android:hint="April (No per day)"
+                android:inputType="number"
+                android:maxLength="40"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/May"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:layout_marginTop="4dp"
+                android:hint="May (No per day)"
+                android:paddingLeft="15dp"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/June"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:maxLength="40"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:hint="June (No per day)"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/july"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:maxLength="40"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:hint="July (No per day)"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/August"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:maxLength="40"
+                android:inputType="number"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:hint="August (No per day)"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/September"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:maxLength="40"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:hint="September (No per day)"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/October"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:maxLength="40"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:hint="October (No per day)"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/November"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:maxLength="40"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:hint="November (No per day)"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/December"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:maxLength="40"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:hint="December (No per day)"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20sp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/white"
+                android:text="NEXT"
+                android:textSize="20sp"
+                android:textAllCaps="true"
+                android:layout_height="50sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

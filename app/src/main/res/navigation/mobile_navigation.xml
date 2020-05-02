@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/add">
+
+    <fragment
+        android:id="@+id/add"
+        android:name="com.jslps.joharmarketapp.ui.market.ui.addmarket.AddMarketFragment"
+        tools:layout="@layout/fragment_add_market" >
+        <action
+            android:id="@+id/action_add_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.jslps.joharmarketapp.ui.market.ui.profile.AddMarketProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/facilities"
+        android:name="com.jslps.joharmarketapp.ui.market.ui.facilities.FacilitiesFragment"
+        tools:layout="@layout/fragment_facilities" />
+
+    <fragment
+        android:id="@+id/charges"
+        android:name="com.jslps.joharmarketapp.ui.market.ui.charges.ChargesFragment"
+        tools:layout="@layout/fragment_charges" />
+
+    <fragment
+        android:id="@+id/hva"
+        android:name="com.jslps.joharmarketapp.ui.market.ui.hva.HvaFragment"
+        tools:layout="@layout/fragment_hva" />
+
+    <fragment
+        android:id="@+id/poultry"
+        android:name="com.jslps.joharmarketapp.ui.market.ui.poultry.PoultryFragment"
+        tools:layout="@layout/fragment_poultry" />
+    <fragment
+        android:id="@+id/goatry"
+        android:name="com.jslps.joharmarketapp.ui.market.ui.goatry.GoatryFragment"
+        android:label="goatry_fragment"
+        tools:layout="@layout/goatry_fragment" />
+    <fragment
+        android:id="@+id/ntfp"
+        android:name="com.jslps.joharmarketapp.ui.market.ui.ntfp.NtfpFragment"
+        android:label="ntfp_fragment"
+        tools:layout="@layout/ntfp_fragment" />
+    <fragment
+        android:id="@+id/fishery"
+        android:name="com.jslps.joharmarketapp.ui.market.ui.fishery.FisheryFragment"
+        android:label="fishery_fragment"
+        tools:layout="@layout/fishery_fragment" />
+</navigation>

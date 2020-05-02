@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbarSize="1sp"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Commission_from_Farmer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="numberDecimal"
+                android:layout_marginTop="10sp"
+                android:hint="Commission from Farmer (per kg)"
+                android:maxLength="40"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:textColor="#000"
+                android:paddingLeft="15dp"
+                android:textSize="14sp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Commission_from_Buyer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:inputType="numberDecimal"
+                android:layout_marginTop="4sp"
+                android:hint="Commission from Buyer (per kg)"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:maxLength="40"
+                android:paddingLeft="15dp"
+                android:textSize="14sp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Weighment_Charges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="numberDecimal"
+                android:maxLength="40"
+                android:layout_marginTop="4dp"
+                android:hint="Weighment Charges (per kg)"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Weight_Deduction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="numberDecimal"
+                android:maxLength="40"
+                android:layout_marginTop="4dp"
+                android:hint="Weight Deduction (kg per qt)"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Hamali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="numberDecimal"
+                android:maxLength="40"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:layout_marginTop="4dp"
+                android:hint="Hamali (per kg)"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Mandi_fee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="numberDecimal"
+                android:maxLength="40"
+                android:layout_marginTop="10dp"
+                android:hint="Mandi fee (per kg)"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Other_charges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="numberDecimal"
+                android:maxLength="40"
+                android:layout_marginTop="4dp"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimaryDark"
+                app:met_singleLineEllipsis="true"
+                android:hint="Other charges, if any (per kg) "
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20sp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:text="Next"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_height="50sp"/>
+    </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

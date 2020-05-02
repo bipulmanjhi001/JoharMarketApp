@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Johar Market App</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="title_activity_add_market">AddMarket</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="add_market">Add Market</string>
+    <string name="add_wholesale_market_profile">Add Wholesale Market Profile</string>
+    <string name="add_hva_products">Add Hva Products</string>
+    <string name="add_poultry_products">Add Poultry Products</string>
+    <string name="add_goatry_products">Add Goatry Products</string>
+    <string name="add_fishery_products">Add Fishery Products</string>
+    <string name="add_ntfp_products">Add NTFP Products</string>
+    <string name="f_v"><![CDATA[F&V]]></string>
+    <string name="products">Products</string>
+
+
+    <string-array name="market_list">
+        <item><font fgcolor='#FF8E8E93'>Select Market Type</font></item>
+        <item>Regulated Wholesale</item>
+        <item>Private Wholesale</item>
+        <item>Weekly Haat</item>
+        <item>Farmer Market</item>
+    </string-array>
+
+    <string-array name="select_district">
+        <item><font fgcolor='#FF8E8E93'>Select District</font></item>
+    </string-array>
+
+    <string-array name="select_town">
+        <item>Select Town/Village</item>
+    </string-array>
+
+    <string-array name="select_block">
+        <item><font fgcolor='#FF8E8E93'>Select Block</font></item>
+    </string-array>
+
+    <string-array name="input_type">
+        <item>Select Type</item>
+    </string-array>
+    <string name="title_activity_detail__view__input__provider">Detail_View_Input_Provider</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="views"><u>View List</u></string>
+
+</resources>

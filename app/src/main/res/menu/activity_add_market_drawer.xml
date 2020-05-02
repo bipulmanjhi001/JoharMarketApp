@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add"
+            android:icon="@drawable/arrow_icon"
+            android:title="@string/add_market" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/arrow_icon"
+            android:title="@string/add_wholesale_market_profile" />
+        <item
+            android:id="@+id/facilities"
+            android:icon="@drawable/arrow_icon"
+            android:title="Add Facilities" />
+        <item
+            android:id="@+id/charges"
+            android:icon="@drawable/arrow_icon"
+            android:title="Add Charges" />
+        <item
+            android:id="@+id/hva"
+            android:icon="@drawable/arrow_icon"
+            android:title="@string/add_hva_products" />
+        <item
+            android:id="@+id/poultry"
+            android:icon="@drawable/arrow_icon"
+            android:title="@string/add_poultry_products" />
+        <item
+            android:id="@+id/goatry"
+            android:icon="@drawable/arrow_icon"
+            android:title="@string/add_goatry_products" />
+        <item
+            android:id="@+id/fishery"
+            android:icon="@drawable/arrow_icon"
+            android:title="@string/add_fishery_products" />
+        <item
+            android:id="@+id/ntfp"
+            android:icon="@drawable/arrow_icon"
+            android:title="@string/add_ntfp_products" />
+    </group>
+
+<!--    <item android:title="Communicate">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_menu_share"-->
+<!--                android:title="@string/menu_share" />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_send"-->
+<!--                android:icon="@drawable/ic_menu_send"-->
+<!--                android:title="@string/menu_send" />-->
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>
