@@ -42,8 +42,7 @@ class Add_Input_Product : AppCompatActivity() {
     fun EnableRuntimePermission() {
         if (ActivityCompat.shouldShowRequestPermissionRationale(
                 this,
-                Manifest.permission.CAMERA
-            )
+                Manifest.permission.CAMERA)
         ) {
             Toast.makeText(
                 this,

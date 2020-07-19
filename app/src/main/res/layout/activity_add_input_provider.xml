@@ -96,7 +96,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Contact_Person"
+                    android:hint="Contact Person"
                     android:inputType="text"
                     android:paddingLeft="@dimen/padding_textinputlayout" />
 
